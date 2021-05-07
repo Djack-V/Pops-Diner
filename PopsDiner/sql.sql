@@ -10,11 +10,11 @@ INSERT INTO `datastore` (name, label, shared) VALUES
 	('society_popsdinerjob', 'popsdiner', 1)
 ;
 
-INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
-	('popsdiner', 0, 'recruit', 'Recrue', 20, '{}'),
-	('popsdiner', 1, 'serveur', 'Serveur',40, '{}'),
-	('popsdiner', 2, 'coboss', 'Co-Gérant',60, '{}'),
-	('popsdiner', 3, 'boss', 'Patron', 80, '{}')
+INSERT INTO job_grades (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
+    ('popsdiner', 0, 'recruit', 'Recrue', 20, '{}', '{}'),
+    ('popsdiner', 1, 'serveur', 'Serveur',40, '{}', '{}'),
+    ('popsdiner', 2, 'coboss', 'Co-Gérant',60, '{}', '{}'),
+    ('popsdiner', 3, 'boss', 'Patron', 80, '{}', '{}')
 ;
 
 INSERT INTO `jobs` (name, label) VALUES
